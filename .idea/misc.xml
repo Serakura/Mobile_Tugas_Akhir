@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/button_radius.xml" value="0.12604166666666666" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/my_edit_text_border.xml" value="0.12604166666666666" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/null_radio_button.xml" value="0.12604166666666666" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/radio_not_selected.xml" value="0.18518518518518517" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/radio_selected.xml" value="0.18518518518518517" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/radio_selector.xml" value="0.18518518518518517" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable-v24/radio_text_selector.xml" value="0.18518518518518517" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable/border_biasa.xml" value="0.240625" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable/border_textview.xml" value="0.240625" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable/icon_hasil_permintaan.xml" value="0.240625" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable/icon_lokasi_rumahsakit_dashboard.xml" value="0.240625" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/drawable/icon_profile.xml" value="0.240625" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_detail_permintaan.xml" value="0.22" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_hasil_permintaan.xml" value="0.33" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_history.xml" value="0.33" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_permintaan_maps.xml" value="0.2" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_rumah_sakit.xml" value="0.25" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/activity_splash.xml" value="0.12771739130434784" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/fragment_fasilitas.xml" value="0.15489130434782608" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/fragment_pelayanan.xml" value="0.15489130434782608" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_fasilitas_rumahsakit.xml" value="0.15489130434782608" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_history.xml" value="0.16032608695652173" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_item.xml" value="0.33" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_pelayanan_rumahsakit.xml" value="0.15489130434782608" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_permintaan_dashboard.xml" value="0.17028985507246377" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_permintaan_hasil.xml" value="0.16530797101449277" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_rumahsakit_dashboard.xml" value="0.33" />
+        <entry key="..\:/Fido/Kuliah/Setik/EMedicalJogja/app/src/main/res/layout/list_rumahsakit_permintaan.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

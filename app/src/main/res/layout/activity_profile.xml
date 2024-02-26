@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HasilPermintaanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        android:background="@color/blue">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+            <TextView
+                android:id="@+id/btn_back_profile"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableRight="@drawable/icon_kembali"
+                android:textColor="@color/white"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Profile"
+                android:textSize="16sp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="172dp"
+            android:layout_height="132dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/usr"
+            android:background="@drawable/border_shadow"/>
+
+        <TextView
+            android:id="@+id/akun_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/icon_user"
+            android:drawablePadding="10dp"
+            android:text="Nama"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/icon_ktp"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="Nomor KTP"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/icon_telp"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="Nomor Telepon"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_telp_keluarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/icon_telp"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="Nomor Telepon Keluarga"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_jenkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/icon_gender"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/icon_alamat"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Alamat"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/button_radius"
+
+        android:text="Log out"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>

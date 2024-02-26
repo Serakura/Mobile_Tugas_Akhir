@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPermintaanActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        android:background="@color/blue">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+            <TextView
+                android:id="@+id/btn_back_detail_permintaan"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableRight="@drawable/icon_kembali"
+                android:textColor="@color/white"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Permintaan Pertolongan"
+                android:textSize="16sp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Kode Rumah Sakit"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle=""
+        android:layout_marginHorizontal="15dp"/>
+    <EditText
+        android:id="@+id/txt_rumahsakit_kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_edit_text_border"
+        android:drawableLeft="@drawable/icon_ktp"
+        android:drawablePadding="10dp"
+        android:hint="Kode Rumah Sakit"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:editable="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Kode Rumah Sakit"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle=""
+        android:layout_marginHorizontal="15dp"/>
+    <TextView
+        android:id="@+id/txt_rumahsakit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_edit_text_border"
+        android:drawableLeft="@drawable/icon_rumahsakit"
+        android:drawablePadding="10dp"
+        android:hint="Nama Rumah Sakit"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:editable="false"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Jenis Permintaan"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginHorizontal="15dp"
+                 />
+        <RadioGroup
+                android:id="@+id/jenis_permintaan_Grup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp">
+
+                <RadioButton
+                    android:id="@+id/jenis_pribadi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@drawable/null_radio_button"
+                    android:color="@color/blue"
+                    android:elevation="4dp"
+                    android:paddingHorizontal="16dp"
+                    android:gravity="center"
+                    android:textIsSelectable="true"
+                    android:textColor="@drawable/radio_text_selector"
+                    android:text="Pribadi" />
+
+                <RadioButton
+                    android:id="@+id/jenis_oranglain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@drawable/null_radio_button"
+                    android:color="@color/blue"
+                    android:elevation="9dp"
+                    android:paddingHorizontal="16dp"
+                    android:gravity="center"
+                    android:textColor="@drawable/radio_text_selector"
+                    android:text="Orang lain" />
+            </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Kronologi"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle=""
+        android:layout_marginHorizontal="15dp"/>
+    <EditText
+        android:id="@+id/txt_kronologi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_edit_text_border"
+        
+        android:drawablePadding="10dp"
+        android:hint="Kronologi"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginHorizontal="15dp" />
+    <Button
+        android:id="@+id/button_kirim_permintaaan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_radius"
+        android:backgroundTint="@color/blue"
+        android:text="Kirim permintaan"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>

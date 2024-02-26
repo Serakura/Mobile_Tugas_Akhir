@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingTop="20dp"
+            android:paddingRight="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Register"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:text="Nama Lengkap"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_nama_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_user"
+                android:drawablePadding="10dp"
+                android:hint="Nama Lengkap"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Kartu Tanda Penduduk"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_ktp_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_ktp"
+                android:drawablePadding="10dp"
+                android:hint="Kartu Tanda Penduduk"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Telepon"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_telp_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_telp"
+                android:drawablePadding="10dp"
+                android:hint="Nomor Telepon"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Telepon Keluarga"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_telp_keluarga_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_telp"
+                android:drawablePadding="10dp"
+                android:hint="Nomor Telepon Keluarga"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Jenis Kelamin"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                 />
+
+            <RadioGroup
+                android:id="@+id/jenkel_Grup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/jenkel_laki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@drawable/null_radio_button"
+                    android:color="@color/blue"
+                    android:elevation="4dp"
+                    android:paddingHorizontal="16dp"
+                    android:gravity="center"
+                    android:textColor="@drawable/radio_text_selector"
+                    android:text="Laki-laki" />
+
+                <RadioButton
+                    android:id="@+id/jenkel_prp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@drawable/null_radio_button"
+                    android:color="@color/blue"
+                    android:elevation="9dp"
+                    android:paddingHorizontal="16dp"
+                    android:gravity="center"
+                    android:textColor="@drawable/radio_text_selector"
+                    android:text="Perempuan" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Alamat"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_alamat_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_alamat"
+                android:drawablePadding="10dp"
+                android:hint="Alamat"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_username_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_user"
+                android:drawablePadding="10dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="" />
+            <EditText
+                android:id="@+id/txt_password_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/my_edit_text_border"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button_radius"
+                android:backgroundTint="@color/blue"
+                android:text="Buat Akun"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
